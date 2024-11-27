@@ -59,22 +59,22 @@ main {
   padding: 10px 60px;
 }
 
-p {
-  font-size: 1.2em;
-}
-
 .cs-begining,
-.cs-middle,
-.cs-end {
+.cs-middle {
   display: flex;
   gap: 20px;
   padding: 30px 100px;
 }
 
 .cs-begining .intro,
-.intro-pictography {
+p, .intro-pictography {
   width: 100%;
   flex: 1;
+}
+
+.intro p {
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 .intro-pictography picture {
@@ -83,7 +83,6 @@ p {
   >img {
     float: inline-end;
     width: 100%;
-    
     border-radius: 5px;
     box-shadow: 6px 6px 10px 6px rgba(161, 161, 161, 0.75);
   }
