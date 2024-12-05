@@ -268,16 +268,19 @@ app<span class="token punctuation">.</span><span class="token function">delete</
 </ul>
 <h4 id="example-workflow">Example Workflow </h4>
 <p>1.<strong>Authentication:</strong></p>
-<pre class="language-text">* User logs in with email/password.
-* A JWT is issued and sent to the client
-</pre>
+<ul>
+<li>User logs in with email/password.</li>
+<li>A JWT is issued and sent to the client</li>
+</ul>
 <p>2.<strong>Authorization:</strong></p>
-<pre class="language-text">* Each route checks the user's role/permissions using middleware.
-* Actions like creating products are restricted to admin users.
-</pre>
+<ul>
+<li>Each route checks the user's role/permissions using middleware.</li>
+<li>Actions like creating products are restricted to admin users.</li>
+</ul>
 <p>3.<strong>Protected Routes:</strong></p>
-<pre class="language-text">* Routes validate the JWT and allow access only if the token is valid.
-</pre>
+<ul>
+<li>Routes validate the JWT and allow access only if the token is valid.</li>
+</ul>
 <h3 id="p-stylebackground-purple-color-yellow-padding-15pxcomparison-of-session-based-authentication-and-stateless-authentication-eg-jwt-along-with-recommendations-for-security-conscious-use-casesp"><p style="background: purple; color: yellow; padding: 15px">Comparison of session-based authentication and stateless authentication (e.g., JWT), along with recommendations for security-conscious use cases.</p> </h3>
 <h4 id="session-based-authentication">Session-Based Authentication </h4>
 <p>Session-based authentication involves storing session data on the server and using cookies to maintain user sessions.</p>
@@ -649,7 +652,7 @@ app<span class="token punctuation">.</span><span class="token function">post</sp
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre><br>
 <h4 id="summary">Summary </h4>
-
+v
   <table>
 <tbody><tr>
   <th>Feature</th>
@@ -680,7 +683,6 @@ app<span class="token punctuation">.</span><span class="token function">post</sp
 <p>Was this page helpful?</p>
 <p style="background: purple; color: yellow; padding: 15px">If you find this article helpful, please feel free to share the link.</p>
 <p>Yes👍 No👎</p>
-
 <button style="color: #fff; background: #000; padding: 10px 20px; font-size: 20px; margin-bottom: 50px; cursor: pointer; border-radius: 5px; float: right;">
   <i class="el el-arrow-up">
     &#x2191;
@@ -695,7 +697,6 @@ app<span class="token punctuation">.</span><span class="token function">post</sp
     });
   });
 </script>
-
       </div>
       
       

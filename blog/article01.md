@@ -226,17 +226,17 @@ export default authenticate;
 
 1.**Authentication:**
 
-    * User logs in with email/password.
-    * A JWT is issued and sent to the client
+  * User logs in with email/password.
+  * A JWT is issued and sent to the client
 
 2.**Authorization:**
 
-    * Each route checks the user's role/permissions using middleware.
-    * Actions like creating products are restricted to admin users.
+  * Each route checks the user's role/permissions using middleware.
+  * Actions like creating products are restricted to admin users.
 
 3.**Protected Routes:**
 
-    * Routes validate the JWT and allow access only if the token is valid.
+  * Routes validate the JWT and allow access only if the token is valid.
 
 ### <p style="background: purple; color: yellow; padding: 15px">Comparison of session-based authentication and stateless authentication (e.g., JWT), along with recommendations for security-conscious use cases.</p>
 
