@@ -2,7 +2,6 @@
 
 # How to Host React App With Routes on GitHub Pages
 
-
 <div class="article-header" >
 <img src="../media/heroImage.png" alt="" width="40" style="margin-right: 10px; border-radius: 25px"/> Author: Emmanuel</div>  
 
