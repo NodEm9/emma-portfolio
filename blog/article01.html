@@ -649,7 +649,7 @@ app<span class="token punctuation">.</span><span class="token function">post</sp
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre><br>
 <h4 id="summary">Summary </h4>
-v
+
   <table>
 <tbody><tr>
   <th>Feature</th>
@@ -680,6 +680,21 @@ v
 <p>Was this page helpful?</p>
 <p style="background: purple; color: yellow; padding: 15px">If you find this article helpful, please feel free to share the link.</p>
 <p>Yes👍 No👎</p>
+
+<button style="color: #fff; background: #000; padding: 10px 20px; font-size: 20px; margin-bottom: 50px; cursor: pointer; border-radius: 5px; float: right;">
+  <i class="el el-arrow-up">
+    &#x2191;
+</i>
+</button>
+
+<script>
+  document.querySelector('button').addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+</script>
 
       </div>
       
