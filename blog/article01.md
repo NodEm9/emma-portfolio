@@ -30,7 +30,7 @@ Adding authentication and authorization for example, to a REST API with user and
 
 #### Authentication:
 
-What is authentication: <p style="background: green; color: yellow; padding: 15px">authentication refers to a process or situation where a server needs to know or verify who is accessing its content. Authentication would usually go both ways the client also wants to be sure the server provider is really who they say they are, so while the server is trying to verify that the client is who they say they are so does a legitimate client the server. In a single sentence, Authentication verifies the identity of a user.</p>
+What is authentication: <p style="background: green; color: yellow; padding: 15px">Authentication refers to a process or situation where a server needs to know or verify who is accessing its content. Authentication would usually go both ways the client also wants to be sure the server provider is really who they say they are, so while the server is trying to verify that the client is who they say they are so does a legitimate client the server. In a single sentence, Authentication verifies the identity of a user.</p>
 
 **Industry-Standard Tools and Libraries**
 
